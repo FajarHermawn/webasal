@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Diri - Fajar Hermawan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #f8fafc;
+        font-family: "Poppins", sans-serif;
+      }
+      .card {
+        background-color: #ffffff;
+        border-top: 6px solid #4f46e5;
+        border-radius: 0.75rem;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      }
+      .label {
+        color: #6b7280;
+        font-weight: 500;
+      }
+      .value {
+        color: #111827;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body class="flex items-center justify-center min-h-screen p-4">
+    <div class="max-w-xl sm:max-w-2xl w-full card p-6 sm:p-8">
+      <!-- Header -->
+      <header class="text-center mb-6">
+        <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-1">
+          Data Diri Singkat
+        </h1>
+        <p class="text-gray-500 text-sm sm:text-base italic">
+          "Jika ingin dunia penuh warna, mulailah dengan kenalan. Awali dengan Bismillah"
+        </p>
+      </header>
+
+      <!-- Foto + Data -->
+      <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mb-6">
+        <div class="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden border-4 border-indigo-600 shadow-md flex-shrink-0">
+          <img
+            src="public/img/me.jpg"
+            alt="Foto Fajar"
+            class="object-cover w-full h-full"
+          />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 w-full text-sm sm:text-base">
+          <div><span class="label">Nama Lengkap:</span> <span class="value">Fajar Hermawan</span></div>
+          <div><span class="label">Zodiak:</span> <span class="value">Virgo</span></div>
+          <div><span class="label">Pendidikan:</span> <span class="value">Mahasiswa Universitas Pamulang</span></div>
+          <div><span class="label">Domisili:</span> <span class="value">Jakarta</span></div>
+          <div><span class="label">Status:</span> <span class="value">Aktif</span></div>
+          <div><span class="label">Hobi:</span> <span class="value">Tamatin anime, Balap lari</span></div>
+          <div><span class="label">Makanan Favorit:</span> <span class="value">Mie Yamin</span></div>
+          <div><span class="label">Minuman Favorit:</span> <span class="value">Le Mineral sedikit manis</span></div>
+          <div><span class="label">Film Favorit:</span> <span class="value">One Piece, I'm Groot</span></div>
+          <div><span class="label">Agama:</span> <span class="value">Islam</span></div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="text-center text-gray-500 text-xs sm:text-sm border-t pt-3">
+        Assalamualaikum • Salam Sejahtera • Om Swastiastu • Namo Buddhaya • Salam Kebajikan
+      </footer>
+    </div>
+  </body>
+</html>
